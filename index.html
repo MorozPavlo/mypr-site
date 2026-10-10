@@ -3,59 +3,83 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MyPR — перевірте свою придатність до імміграції в Канаду</title>
+  <title>MyPR — твій шлях до Канади</title>
   <meta name="description" content="MyPR аналізує ваш профіль за критеріями федеральних програм, Квебеку та всіх провінцій Канади. Увесь аналіз — на вашому пристрої, без серверів.">
+  <link rel="icon" href="assets/beaver.png">
+  <link rel="apple-touch-icon" href="assets/beaver.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="wrap">
     <header class="site">
-      <div class="logo">MyPR</div>
-      <div class="name">MyPR</div>
+      <a class="brand" href="index.html">
+        <img src="assets/beaver.png" alt="MyPR">
+        <span class="name">MyPR</span>
+      </a>
       <nav class="site">
-        <a href="index.html">Головна</a>
-        <a href="support.html">Підтримка</a>
-        <a href="privacy.html">Приватність</a>
+        <a class="navlink" href="support.html">Підтримка</a>
+        <a class="navlink" href="privacy.html">Приватність</a>
+        <span class="lang-switch">
+          <a class="active" href="index.html">UA</a>
+          <a href="en/index.html">EN</a>
+          <a href="fr/index.html">FR</a>
+        </span>
       </nav>
     </header>
 
     <section class="hero">
-      <h1>Перевірте, до яких програм імміграції в Канаду ви підходите</h1>
-      <p class="lead">Ще до того, як записуватися на платну консультацію. Увесь аналіз виконується просто на вашому пристрої — без серверів і без передачі ваших даних.</p>
-      <a class="badge" href="#">Незабаром у App Store</a>
+      <h1 class="sr-only">MyPR — перевірте, до яких програм імміграції в Канаду ви підходите</h1>
+      <img class="hero-banner" src="assets/hero-ua.jpg" alt="MyPR — твій шлях до Канади: імміграційні програми й оцінка AI на пристрої">
+      <p class="lead">Перевірте, до яких програм імміграції в Канаду ви підходите — ще до того, як записуватися на платну консультацію. Увесь аналіз виконується просто на вашому пристрої.</p>
+      <a class="cta" href="#">Незабаром у App Store</a>
     </section>
 
-    <div class="card">
-      <p>MyPR аналізує ваш профіль за критеріями федеральних програм, стримів Квебеку та Provincial Nominee Program кожної провінції й території та показує зрозумілий результат по кожній програмі окремо.</p>
+    <h2 class="display">Що вміє MyPR</h2>
+    <div class="cards">
+      <div class="card">
+        <h3><span class="ic">◎</span> Оцінка по кожній програмі</h3>
+        <ul class="features">
+          <li>Підходите / частково / не підходите</li>
+          <li>Пояснення, чому саме такий результат</li>
+          <li>Вимоги, яких бракує, і загальні наступні кроки</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="ic">🍁</span> Уся Канада</h3>
+        <ul class="features">
+          <li>Федеральні програми</li>
+          <li>Стрими Квебеку</li>
+          <li>PNP кожної провінції та території</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="ic">🔒</span> Приватність на першому місці</h3>
+        <ul class="features">
+          <li>Аналіз виконується на вашому пристрої</li>
+          <li>Немає сервера — дані нікуди не передаються</li>
+          <li>Працює навіть без інтернету</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3><span class="ic">👨‍👩‍👧</span> Для всієї родини та 3 мови</h3>
+        <ul class="features">
+          <li>Спільний список рідних і конфігурації пошуку</li>
+          <li>Інтерфейс українською, англійською, французькою</li>
+          <li>Переклад збереженого результату будь-коли</li>
+        </ul>
+      </div>
     </div>
 
-    <h2>Що ви отримаєте</h2>
-    <ul class="features">
-      <li>Оцінку по кожній програмі: підходите / частково / не підходите</li>
-      <li>Пояснення, чому саме такий результат</li>
-      <li>Перелік вимог, яких бракує, і загальні наступні кроки</li>
-      <li>Охоплення: федеральні програми, Квебек і всі провінції та території</li>
-    </ul>
-
-    <h2>Приватність на першому місці</h2>
-    <ul class="features">
-      <li>Увесь аналіз виконується на вашому пристрої за допомогою вбудованого ШІ</li>
-      <li>Застосунок не має сервера й нікуди не передає ваші дані</li>
-      <li>Працює навіть без інтернету</li>
-    </ul>
-
-    <h2>Для всієї родини</h2>
-    <ul class="features">
-      <li>Додайте себе та рідних у спільний список</li>
-      <li>Зберіть конфігурацію пошуку: хто основний заявник, а хто супроводжує</li>
-      <li>Перевірте також, на що кожен дорослий міг би претендувати самостійно</li>
-    </ul>
-
-    <h2>Три мови</h2>
-    <ul class="features">
-      <li>Інтерфейс і пояснення — українською, англійською та французькою</li>
-      <li>Збережений результат можна перекласти іншою мовою будь-коли</li>
-    </ul>
+    <h2 class="display">Як це виглядає</h2>
+    <div class="gallery">
+      <img src="assets/ua/01.jpg" alt="Знайди програму під свій кейс">
+      <img src="assets/ua/02.jpg" alt="Огляд і статистика відповідності">
+      <img src="assets/ua/03.jpg" alt="Детальна оцінка програми">
+      <img src="assets/ua/04.jpg" alt="Налаштування та профіль">
+    </div>
 
     <div class="disclaimer">
       MyPR — це інформаційний інструмент для самооцінки, а не юридична консультація й не офіційне рішення. MyPR не пов'язаний з урядом Канади, Квебеку чи будь-яким офіційним органом і не є офіційним каналом подачі заявок. Критерії програм змінюються; завжди звіряйтеся з офіційними джерелами (canada.ca, сайт MIFI Квебеку, сторінки провінційних програм) або з ліцензованим консультантом з імміграції.
